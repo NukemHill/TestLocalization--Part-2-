@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4063492171C6F9A008FB23C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4063491171C6F9A008FB23C /* UIKit.framework */; };
+		A4063494171C6F9A008FB23C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4063493171C6F9A008FB23C /* Foundation.framework */; };
+		A4063496171C6F9A008FB23C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4063495171C6F9A008FB23C /* CoreGraphics.framework */; };
+		A406349C171C6F9A008FB23C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A406349A171C6F9A008FB23C /* InfoPlist.strings */; };
+		A406349E171C6F9A008FB23C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A406349D171C6F9A008FB23C /* main.m */; };
+		A40634A2171C6F9A008FB23C /* AISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A40634A1171C6F9A008FB23C /* AISAppDelegate.m */; };
+		A40634A4171C6F9A008FB23C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A40634A3171C6F9A008FB23C /* Default.png */; };
+		A40634A6171C6F9A008FB23C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A40634A5171C6F9A008FB23C /* Default@2x.png */; };
+		A40634A8171C6F9A008FB23C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A40634A7171C6F9A008FB23C /* Default-568h@2x.png */; };
+		A40634AB171C6F9A008FB23C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40634A9171C6F9A008FB23C /* MainStoryboard_iPhone.storyboard */; };
+		A40634AE171C6F9A008FB23C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40634AC171C6F9A008FB23C /* MainStoryboard_iPad.storyboard */; };
+		A40634B1171C6F9A008FB23C /* AISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40634B0171C6F9A008FB23C /* AISViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A406348E171C6F9A008FB23C /* TestLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4063491171C6F9A008FB23C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4063493171C6F9A008FB23C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4063495171C6F9A008FB23C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4063499171C6F9A008FB23C /* TestLocalization-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestLocalization-Info.plist"; sourceTree = "<group>"; };
+		A406349B171C6F9A008FB23C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A406349D171C6F9A008FB23C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A406349F171C6F9A008FB23C /* TestLocalization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestLocalization-Prefix.pch"; sourceTree = "<group>"; };
+		A40634A0171C6F9A008FB23C /* AISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISAppDelegate.h; sourceTree = "<group>"; };
+		A40634A1171C6F9A008FB23C /* AISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISAppDelegate.m; sourceTree = "<group>"; };
+		A40634A3171C6F9A008FB23C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A40634A5171C6F9A008FB23C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A40634A7171C6F9A008FB23C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A40634AA171C6F9A008FB23C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A40634AD171C6F9A008FB23C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A40634AF171C6F9A008FB23C /* AISViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISViewController.h; sourceTree = "<group>"; };
+		A40634B0171C6F9A008FB23C /* AISViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A406348B171C6F9A008FB23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4063492171C6F9A008FB23C /* UIKit.framework in Frameworks */,
+				A4063494171C6F9A008FB23C /* Foundation.framework in Frameworks */,
+				A4063496171C6F9A008FB23C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4063485171C6F9A008FB23C = {
+			isa = PBXGroup;
+			children = (
+				A4063497171C6F9A008FB23C /* TestLocalization */,
+				A4063490171C6F9A008FB23C /* Frameworks */,
+				A406348F171C6F9A008FB23C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A406348F171C6F9A008FB23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A406348E171C6F9A008FB23C /* TestLocalization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4063490171C6F9A008FB23C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4063491171C6F9A008FB23C /* UIKit.framework */,
+				A4063493171C6F9A008FB23C /* Foundation.framework */,
+				A4063495171C6F9A008FB23C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4063497171C6F9A008FB23C /* TestLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				A40634A0171C6F9A008FB23C /* AISAppDelegate.h */,
+				A40634A1171C6F9A008FB23C /* AISAppDelegate.m */,
+				A40634A9171C6F9A008FB23C /* MainStoryboard_iPhone.storyboard */,
+				A40634AC171C6F9A008FB23C /* MainStoryboard_iPad.storyboard */,
+				A40634AF171C6F9A008FB23C /* AISViewController.h */,
+				A40634B0171C6F9A008FB23C /* AISViewController.m */,
+				A4063498171C6F9A008FB23C /* Supporting Files */,
+			);
+			path = TestLocalization;
+			sourceTree = "<group>";
+		};
+		A4063498171C6F9A008FB23C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4063499171C6F9A008FB23C /* TestLocalization-Info.plist */,
+				A406349A171C6F9A008FB23C /* InfoPlist.strings */,
+				A406349D171C6F9A008FB23C /* main.m */,
+				A406349F171C6F9A008FB23C /* TestLocalization-Prefix.pch */,
+				A40634A3171C6F9A008FB23C /* Default.png */,
+				A40634A5171C6F9A008FB23C /* Default@2x.png */,
+				A40634A7171C6F9A008FB23C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A406348D171C6F9A008FB23C /* TestLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40634B4171C6F9A008FB23C /* Build configuration list for PBXNativeTarget "TestLocalization" */;
+			buildPhases = (
+				A406348A171C6F9A008FB23C /* Sources */,
+				A406348B171C6F9A008FB23C /* Frameworks */,
+				A406348C171C6F9A008FB23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLocalization;
+			productName = TestLocalization;
+			productReference = A406348E171C6F9A008FB23C /* TestLocalization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4063486171C6F9A008FB23C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AIS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Applied IS";
+			};
+			buildConfigurationList = A4063489171C6F9A008FB23C /* Build configuration list for PBXProject "TestLocalization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4063485171C6F9A008FB23C;
+			productRefGroup = A406348F171C6F9A008FB23C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A406348D171C6F9A008FB23C /* TestLocalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A406348C171C6F9A008FB23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A406349C171C6F9A008FB23C /* InfoPlist.strings in Resources */,
+				A40634A4171C6F9A008FB23C /* Default.png in Resources */,
+				A40634A6171C6F9A008FB23C /* Default@2x.png in Resources */,
+				A40634A8171C6F9A008FB23C /* Default-568h@2x.png in Resources */,
+				A40634AB171C6F9A008FB23C /* MainStoryboard_iPhone.storyboard in Resources */,
+				A40634AE171C6F9A008FB23C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A406348A171C6F9A008FB23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A406349E171C6F9A008FB23C /* main.m in Sources */,
+				A40634A2171C6F9A008FB23C /* AISAppDelegate.m in Sources */,
+				A40634B1171C6F9A008FB23C /* AISViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A406349A171C6F9A008FB23C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A406349B171C6F9A008FB23C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A40634A9171C6F9A008FB23C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40634AA171C6F9A008FB23C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A40634AC171C6F9A008FB23C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40634AD171C6F9A008FB23C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40634B2171C6F9A008FB23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40634B3171C6F9A008FB23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40634B5171C6F9A008FB23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestLocalization/TestLocalization-Prefix.pch";
+				INFOPLIST_FILE = "TestLocalization/TestLocalization-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A40634B6171C6F9A008FB23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestLocalization/TestLocalization-Prefix.pch";
+				INFOPLIST_FILE = "TestLocalization/TestLocalization-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4063489171C6F9A008FB23C /* Build configuration list for PBXProject "TestLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40634B2171C6F9A008FB23C /* Debug */,
+				A40634B3171C6F9A008FB23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40634B4171C6F9A008FB23C /* Build configuration list for PBXNativeTarget "TestLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40634B5171C6F9A008FB23C /* Debug */,
+				A40634B6171C6F9A008FB23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4063486171C6F9A008FB23C /* Project object */;
+}
