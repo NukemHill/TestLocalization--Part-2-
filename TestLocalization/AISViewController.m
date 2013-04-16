@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(id)sender {
+	NSString *myString = NSLocalizedString(@"helloString", @"Hello! This is fun!");
+
+	self.localizedTextField.text = myString;
+}
+
+
 @end

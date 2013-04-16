@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  TestLocalization
+
+  Created by Gregory Hill on 4/15/13.
+  Copyright (c) 2013 Applied IS. All rights reserved.
+*/
+/* "Hello! This is fun!" */
+"helloString" = "Hola! Esto es divertido!";
+

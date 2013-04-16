@@ -10,4 +10,9 @@
 
 @interface AISViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *localizedTextField;
+
+
+- (IBAction)buttonPressed:(id)sender;
+
 @end
